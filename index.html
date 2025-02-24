@@ -1,10 +1,91 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Hello world</title>
-  </head>
-  <body>
-    Hello world
-  </body>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О себе - Алексей Целиков</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .content .block {
+            flex: 1 1 45%;
+            margin: 10px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+        .content .block h2 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Алексей Целиков</h1>
+        <p>Личный сайт</p>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <div class="block">
+                <h2>О себе</h2>
+                <p>Привет! Меня зовут Алексей Целиков. Я увлекаюсь историей, философией и искусством. На этом сайте я расскажу о своих интересах и достижениях.</p>
+            </div>
+            <div class="block">
+                <h2>Мои интересы</h2>
+                <ul>
+                    <li>Обезьяны</li>
+                    <li>Бананы</li>
+                    <li>Буковки</li>
+                    <li>Игры про автоматизацию</li>
+                </ul>
+            </div>
+            <div class="block">
+                <h2>Мои достижения</h2>
+                <p>Завод в Ffctorio.</p>
+            </div>
+            <div class="block">
+                <h2>Контакты</h2>
+                <p>Вы можете связаться со мной через электронную почту: <a href="mailto:kokter@example.com">kokter@example.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Banani. Все права защищены.</p>
+    </footer>
+</body>
 </html>
